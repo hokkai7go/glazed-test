@@ -32,6 +32,7 @@ service routing protocols model multi-agent
 !
 hostname leaf1
 !
+snmp-server location tokyo-lab
 snmp-server community [~REDACTED:dgst=qASHv9nralo~] ro
 !
 spanning-tree mode mstp
