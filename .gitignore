@@ -1,0 +1,24 @@
+# glazedの出力(raw側には秘密情報を含む生の設定が入るので絶対にコミットしない)
+/out/
+
+# 秘密情報(BACKUP_PASSWORD, GLAZED_HMAC_KEY, GITHUB_TOKEN など)
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# Bundler
+/.bundle/
+/vendor/bundle/
+
+# glazed orchestrate の状態(SQLite)
+*.sqlite3
+*.sqlite3-journal
+*.db
+
+# エディタ・OS
+.DS_Store
+*.swp
+.idea/
+.vscode/

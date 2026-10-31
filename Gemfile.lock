@@ -1,0 +1,111 @@
+GIT
+  remote: https://github.com/sorah/glazed
+  revision: f5289289def4b8569d510ea0021e0d49f22c6683
+  glob: glazed/*.gemspec
+  specs:
+    glazed (0.4.0)
+      dry-cli
+      google-protobuf
+      httpx
+      logger
+      net-ssh
+      net-telnet
+      protovalidate (>= 0.1.0.beta3, < 0.2)
+      sqlite3 (>= 2.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (4.1.3)
+    dry-cli (1.4.1)
+    google-protobuf (4.36.2)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-aarch64-linux-gnu)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-aarch64-linux-musl)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-arm64-darwin)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-x86_64-linux-gnu)
+      bigdecimal
+      rake (~> 13.3)
+    google-protobuf (4.36.2-x86_64-linux-musl)
+      bigdecimal
+      rake (~> 13.3)
+    http-2 (1.3.0)
+    httpx (1.9.0)
+      http-2 (>= 1.2.0)
+    logger (1.7.0)
+    net-ssh (8.0.4)
+      logger
+      openssl (>= 3.2.0)
+    net-telnet (0.2.0)
+    openssl (4.0.2)
+    protovalidate (0.1.0-aarch64-linux-gnu)
+      google-protobuf (>= 4.31)
+    protovalidate (0.1.0-aarch64-linux-musl)
+      google-protobuf (>= 4.31)
+    protovalidate (0.1.0-arm-linux-gnu)
+      google-protobuf (>= 4.31)
+    protovalidate (0.1.0-arm64-darwin)
+      google-protobuf (>= 4.31)
+    protovalidate (0.1.0-x86_64-linux-gnu)
+      google-protobuf (>= 4.31)
+    protovalidate (0.1.0-x86_64-linux-musl)
+      google-protobuf (>= 4.31)
+    rake (13.4.2)
+    sqlite3 (2.10.2-aarch64-linux-gnu)
+    sqlite3 (2.10.2-aarch64-linux-musl)
+    sqlite3 (2.10.2-arm-linux-gnu)
+    sqlite3 (2.10.2-arm64-darwin)
+    sqlite3 (2.10.2-x86_64-linux-gnu)
+    sqlite3 (2.10.2-x86_64-linux-musl)
+
+PLATFORMS
+  aarch64-linux-gnu
+  aarch64-linux-musl
+  arm-linux-gnu
+  arm64-darwin
+  x86_64-linux-gnu
+  x86_64-linux-musl
+
+DEPENDENCIES
+  glazed!
+
+CHECKSUMS
+  bigdecimal (4.1.3) sha256=61ebe1e5e559bdc3cc6f2c0ee7f427321fc838f59611c294356eb04d6e21cf66
+  bundler (4.0.23) sha256=407ba8a1d928f412847f819aa5f8b6aef7c59fb51feb517112af8a165487287b
+  dry-cli (1.4.1) sha256=b8015bb76c708aa8705a36faf694973e75eeeffca39b89c8e172dc6f66a7d874
+  glazed (0.4.0)
+  google-protobuf (4.36.2) sha256=2f8daff50ae14aad36ab0ccdcf284065fa71d726c444efe114e6db82ffe62494
+  google-protobuf (4.36.2-aarch64-linux-gnu) sha256=c3279ec6eaa59f6ed6276eda2a33cffb4306471183ab79a332e698b8564f5169
+  google-protobuf (4.36.2-aarch64-linux-musl) sha256=0772c9dde1e6dce9a6b44d1d35c28c29adee99d9bd6aff5e21840daeb22161ce
+  google-protobuf (4.36.2-arm64-darwin) sha256=f70d810e6bbab9d8ad9c1d5fd685a21de4c10ad3ad32efb9455e17e5b1286917
+  google-protobuf (4.36.2-x86_64-linux-gnu) sha256=d25a820873e423f1d209ae8c672a4a28b019e2429debd0901d26670a0b4e14db
+  google-protobuf (4.36.2-x86_64-linux-musl) sha256=0fa17686c896da96a60a705e56ddc7d4ff56413f52787c655bd4c9fb33ffe14f
+  http-2 (1.3.0) sha256=58fc8636c2b937b651853e9f6d9ada9fdaa8bf80b5a7d0333ce15653e5ca6ac1
+  httpx (1.9.0) sha256=ce6fb4bee1d23d311fb41414094f3423a0ad7b6ae68ea6d9619d1b6e411f18a9
+  logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
+  net-ssh (8.0.4) sha256=969e1675fe82894178dd04b69236e5dc404e464f57ba006e87679dc448f9bf1b
+  net-telnet (0.2.0) sha256=253007c0f8dc3fd66e569d53ebbce5ef6e94d6246ab9c04d73a7629b0eebd39a
+  openssl (4.0.2) sha256=1037ad2868ae58df9ad917891c0c0f9815a1172f6846d4bcdd508e4c2ee747c2
+  protovalidate (0.1.0-aarch64-linux-gnu) sha256=41e7cc0cac37b23a9fa651398fda9ad9f5a4ea8c13adc0825ae846a0f72ceddf
+  protovalidate (0.1.0-aarch64-linux-musl) sha256=9d2fc7ea0d908b403f8b41ae58607e5ab6496dac7a1f509fa3d1c4ee1af0b7ef
+  protovalidate (0.1.0-arm-linux-gnu) sha256=91b4146f29a4e08451a108f273e1dd4c6e4d8ff800e19a4400e724a0f9459128
+  protovalidate (0.1.0-arm64-darwin) sha256=342b3e117fea325f2ce6b62557474034afed3c18cf8e403856f7fc6d6dcb1c0b
+  protovalidate (0.1.0-x86_64-linux-gnu) sha256=b2ee3612b8086e6834315eebdad6f2b058168947efcf14b5e8247798a6ad1688
+  protovalidate (0.1.0-x86_64-linux-musl) sha256=1dfa1f0d4cf01a112dc7caeec1a4fb86328d74184a4d9067fcdd152de60291af
+  rake (13.4.2) sha256=cb825b2bd5f1f8e91ca37bddb4b9aaf345551b4731da62949be002fa89283701
+  sqlite3 (2.10.2-aarch64-linux-gnu) sha256=e9aea2c2b3476fc875dd8a89313a9a2862818519c0186bfb5b56d6f57bb08d98
+  sqlite3 (2.10.2-aarch64-linux-musl) sha256=4986fc40cdf21342362b72a941df28e95cfe0e644f3ad2532d948b157c39dbee
+  sqlite3 (2.10.2-arm-linux-gnu) sha256=762f609ef891463226b472d3df66aea84d5466ff4376d3ccf4a059718c4ce9c9
+  sqlite3 (2.10.2-arm64-darwin) sha256=5b0d235ea037e6dcd1b8387a19d73be571917db9f93044d35741cf933a21a37d
+  sqlite3 (2.10.2-x86_64-linux-gnu) sha256=ca92731ab464df9cae503fa1a439a549e2724f6953c8c05a7769b59366e38f15
+  sqlite3 (2.10.2-x86_64-linux-musl) sha256=b9f8fc62f3e0eb8966b41de251b492b4c8e9d1b23559beb6e150ad7f8d590941
+
+BUNDLED WITH
+  4.0.23

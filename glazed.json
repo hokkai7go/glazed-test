@@ -1,0 +1,14 @@
+{
+  "inventory": [{"json_files": {"paths": ["inventory/*.json"]}}],
+  "storages": {
+    "raw": {"git": {"path": "./out/raw"}},
+    "redacted": {"git": {"path": "./out/redacted"}}
+  },
+  "workflows": {
+    "backup": {"steps": [
+      {"name": "fetch", "fetch": {"output": "raw", "storage": "raw"}},
+      {"name": "redact", "redact": {"input": "raw", "output": "redacted", "storage": "redacted",
+                                    "redaction": {"mode": "MODE_HMAC", "hmac_key": {"env": "GLAZED_HMAC_KEY"}}}}
+    ]}
+  }
+}

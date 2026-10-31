@@ -1,0 +1,4 @@
+{
+  "defaults": {"group": "lab", "dialect": "junos", "username": "backup", "password": {"env": "BACKUP_PASSWORD"}},
+  "nodes": [{"name": "ex4300-lab", "host": "192.168.1.4"}]
+}
